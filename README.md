@@ -41,3 +41,11 @@ SELECT Nome, Ano, Duracao FROM Filmes
 WHERE Ano > 2000;
 ```
 ![Exercicio 5](Imagens/5.png)
+
+## 6 - Buscar os filmes com a duracao maior que 100 e menor que 150, ordenando pela duracao em ordem crescente
+```sql
+SELECT Nome, Ano, Duracao FROM Filmes
+WHERE Duracao > 100 AND Duracao < 150
+ORDER BY Duracao;
+```
+![Exercicio 6](Imagens/6.png)
