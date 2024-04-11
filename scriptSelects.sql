@@ -21,3 +21,8 @@ WHERE Ano > 2000;
 SELECT Nome, Ano, Duracao FROM Filmes
 WHERE Duracao > 100 AND Duracao < 150
 ORDER BY Duracao;
+
+-- 7
+SELECT Ano, COUNT(1) Quantidade FROM Filmes
+GROUP BY Ano
+ORDER BY Quantidade DESC;
