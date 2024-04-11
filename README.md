@@ -81,3 +81,12 @@ INNER JOIN FilmesGenero fg ON f.Id = fg.IdFilme
 INNER JOIN Generos g ON fg.IdGenero = g.Id;
 ```
 ![Exercicio 10](Imagens/10.png)
+
+## 11 - Buscar o nome do filme e o gênero do tipo "Mistério"
+```sql
+SELECT f.Nome, g.Genero FROM Filmes f
+INNER JOIN FilmesGenero fg ON f.Id = fg.IdFilme
+INNER JOIN Generos g ON fg.IdGenero = g.Id
+WHERE g.Genero = 'Mistério';
+```
+![Exercicio 11](Imagens/11.png)
