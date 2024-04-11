@@ -1,5 +1,14 @@
 # SqlChanlage-DIO
 
+Consultas SQL para Análise de Dados de Filmes e Atores
+
+Este repositório contém consultas SQL para análise de dados do banco de dados de um site de filmes, onde são armazenadas informações sobre filmes, atores, gêneros, e seus relacionamentos.
+
+## Preparando o Banco de Dados
+Para começar, execute o arquivo Script Filmes.sql em seu banco de dados SQL Server. Este script irá criar um banco de dados chamado Filmes, juntamente com as tabelas e dados necessários para realizar as consultas deste desafio. Você pode encontrar o script na pasta Scripts deste repositório ou clicando aqui.
+
+## Consultas Realizadas
+Aqui estão as consultas que devem ser executadas para obter diferentes tipos de informações sobre os filmes e atores:
 
 ## Proposta
 O banco de dados está modelado da seguinte maneira:
