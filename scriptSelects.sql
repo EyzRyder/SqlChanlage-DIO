@@ -26,3 +26,7 @@ ORDER BY Duracao;
 SELECT Ano, COUNT(1) Quantidade FROM Filmes
 GROUP BY Ano
 ORDER BY Quantidade DESC;
+
+-- 8
+SELECT * FROM Atores
+WHERE Genero = 'M';

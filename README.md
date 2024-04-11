@@ -57,3 +57,10 @@ GROUP BY Ano
 ORDER BY Quantidade DESC;
 ```
 ![Exercicio 7](Imagens/7.png)
+
+## 8 - Buscar os Atores do gênero masculino, retornando o PrimeiroNome, UltimoNome
+```sql
+SELECT * FROM Atores
+WHERE Genero = 'M';
+```
+![Exercicio 8](Imagens/8.png)
