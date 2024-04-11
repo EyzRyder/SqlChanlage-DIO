@@ -64,3 +64,12 @@ SELECT * FROM Atores
 WHERE Genero = 'M';
 ```
 ![Exercicio 8](Imagens/8.png)
+
+## 9 - Buscar os Atores do gênero feminino, retornando o PrimeiroNome, UltimoNome, e ordenando pelo PrimeiroNome
+```sql
+SELECT * FROM Atores
+WHERE Genero = 'F'
+ORDER BY PrimeiroNome;
+
+```
+![Exercicio 9](Imagens/9.png)
