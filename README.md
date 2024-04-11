@@ -16,6 +16,14 @@ SELECT Nome, Ano FROM Filmes;
 
 ## 2 - Buscar o nome e ano dos filmes, ordenados por ordem crescente pelo ano
 ```sql
-SELECT Nome, Ano, Duracao FROM Filmes ORDER BY Ano;
+SELECT Nome, Ano, Duracao FROM Filmes
+ORDER BY Ano;
 ```
 ![Exercicio 2](Imagens/2.png)
+
+## 3 - Buscar pelo filme de volta para o futuro, trazendo o nome, ano e a duração
+```sql
+SELECT Nome, Ano, Duracao FROM Filmes
+WHERE Nome = 'De Volta para o Futuro';
+```
+![Exercicio 3](Imagens/3.png)
