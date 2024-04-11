@@ -34,3 +34,10 @@ SELECT Nome, Ano, Duracao FROM Filmes
 WHERE Ano = 1997;
 ```
 ![Exercicio 4](Imagens/4.png)
+
+## 5 - Buscar os filmes lançados APÓS o ano 2000
+```sql
+SELECT Nome, Ano, Duracao FROM Filmes
+WHERE Ano > 2000;
+```
+![Exercicio 5](Imagens/5.png)
